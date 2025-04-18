@@ -49,3 +49,11 @@ This project implements and evaluates a fine-tuned BERT model for Aspect-Based S
 Example prediction format:
 ```python
 Aspect: battery | Sentiment: Positive | Review: "The battery lasts all day and charges quickly."
+## 📁 Notebooks & Outputs
+
+| File | Description |
+|------|-------------|
+| [`notebook.ipynb`](./notebook.ipynb) | Original notebook file (may not render on GitHub) |
+| [`notebook.py`](./notebook.py) | Converted Python source version (fully functional) |
+| [`notebook.pdf`](./notebook.pdf) | Rendered PDF version with training results and predictions |
+
