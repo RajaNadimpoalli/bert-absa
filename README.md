@@ -10,7 +10,6 @@ This project implements and evaluates a fine-tuned BERT model for Aspect-Based S
 - **Architecture**: BERT encoder with a linear classifier on [CLS] token
 - **Data**: Amazon Polarity dataset (subset of 3,000 reviews)
 - **Tracking**: Training progress visualized using [Weights & Biases](https://wandb.ai/)
-- **Platform**: Developed and tested on Google Colab (T4 GPU)
 
 ---
 
@@ -24,8 +23,17 @@ This project implements and evaluates a fine-tuned BERT model for Aspect-Based S
 | `results/`          | Training outputs and model logs |
 | `BERT_ABSA_Project_Presentation.pptx` | Final project presentation |
 | `README.md`         | You're reading it! |
+---
+## 📁 Notebooks & Outputs
+
+| File | Description |
+|------|-------------|
+| [`notebook.ipynb`](./notebook.ipynb) | Original notebook file (may not render on GitHub) |
+| [`notebook.py`](./notebook.py) | Converted Python source version (fully functional) |
+| [`notebook.pdf`](./notebook.pdf) | Rendered PDF version with training results and predictions |
 
 ---
+
 
 ## 🧠 Model Training
 
@@ -49,11 +57,5 @@ This project implements and evaluates a fine-tuned BERT model for Aspect-Based S
 Example prediction format:
 ```python
 Aspect: battery | Sentiment: Positive | Review: "The battery lasts all day and charges quickly."
-## 📁 Notebooks & Outputs
 
-| File | Description |
-|------|-------------|
-| [`notebook.ipynb`](./notebook.ipynb) | Original notebook file (may not render on GitHub) |
-| [`notebook.py`](./notebook.py) | Converted Python source version (fully functional) |
-| [`notebook.pdf`](./notebook.pdf) | Rendered PDF version with training results and predictions |
 
