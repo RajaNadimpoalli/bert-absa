@@ -1,0 +1,23 @@
+.ipynb_checkpoints/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.so
+
+# Hugging Face model cache
+*.bin
+*.h5
+*.ckpt
+
+# Virtual environments
+env/
+venv/
+
+# Log and result folders
+logs/
+results/
+
+# System files
+.DS_Store
+Thumbs.db
